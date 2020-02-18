@@ -5,16 +5,36 @@
 
 .tcell{
     display: table-cell;
-    text-align: justify;
-    border-bottom: 2px solid gray;
+    /* text-align: justify; */
+    border-bottom: 2px solid gray ;
+    padding:10px;
+    
+    
 }
 
 .table{
     display: table;
-    text-align: center;
+    /* text-align: center; */
     width:500px;
     
 }
-li{
+/* li{
     list-style: none;
+    padding-top: 5px;
+    margin: 5px;
 }
+
+.list{
+    list-style: url(image/home.png);
+    text-align: justify;
+}
+
+.category{
+    list-style: url(image/list.png);
+    text-align:top;
+    
+}
+.wishlist{
+    list-style: url(image/wishlist.png);
+    text-align: justify;
+} */
