@@ -1,12 +1,17 @@
+body{
+    background:#f4f4f4;
+}
+
 .throw{
     display: table-row;
+    
     
 }
 
 .tcell{
     display: table-cell;
     /* text-align: justify; */
-    border-bottom: 2px solid gray ;
+    border-bottom: 2px solid #f4f4f4 ;
     padding:10px;
     
     
