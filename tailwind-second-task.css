@@ -8,13 +8,43 @@ body{
        visibility: hidden;
     }
     div .flex{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     div .left-section{
-       
+       visibility: hidden;
        background-color: unset;
-        margin: 0;
-        padding: 0;
+       
+    }
+    body{
+        min-width: 10vh;;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        min-height: 100vh;
+        
+       
+        
+    }
+    header{
+          display: flex;
+          flex-direction: column;
+    }
+    div .table{
+        width: 10%;
+        padding-right: 300px;
+        
+        font-size: 40%;
+    }
+    section .middle-part{
+        font-size: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        
     }
 }
 
@@ -23,6 +53,9 @@ body{
     
     
 }
+ i{
+    color: rgba(240, 236, 236, 0.8);
+ }
 
 .tcell{
     display: table-cell;
